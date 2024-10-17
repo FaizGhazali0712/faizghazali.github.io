@@ -1,0 +1,31 @@
+/* .flex-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+#flex-item {
+    flex-basis: 100%;
+    height: 100px;
+    margin: 4px;
+    background: #495777;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+} */
+html, body, #flex-container {
+    height: 100%;
+}
+#flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+.flex-item {
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    background: #ec9194;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}

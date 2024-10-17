@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Times New Roman', Georgia, Roboto;
+    /* color: teal; */ 
+}
+.bg-yellow {
+    background-color: yellow;
+    padding: 100px;
+}
+#header {
+    background:grey;
+}
+input  [type="text"] {
+ background:yellow;
+}
+p, div {
+    font-size: 19px;
+    color:red;
+}
+.pink {
+    color:black;
+    background: pink;
+    padding: 10px;
+
+}
+.text {
+    color:darkblue;
+}
+.bg-2 {
+    background:goldenrod ;
+}
+#header-menu {
+    background: teal;
+    color:white;
+    height: 130px;
+    padding: 49px;
+
+}
+.text header{
+    color:white;
+}
+* {
+    border: 1px solid grey;
+}
+a:hover {
+    color:green;
+}
+.text-panjang::first-line {
+    color:rebeccapurple;
+}
+/*ini adalah kata komentator */

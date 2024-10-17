@@ -1,0 +1,25 @@
+/*static*/
+.container {
+    background-color: orange;
+    width: 600px;
+    height: 150px;
+}
+.yellow-boxes {
+    display: inline-block;
+    margin: 10px;
+    background: yellow;
+    width: 100px;
+    height: 100px;
+}
+/* relative */
+.inline-block {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    margin: 4px;
+    display: inline-block;
+}
+.relative {
+    position: relative;
+    top: 40px;
+}
