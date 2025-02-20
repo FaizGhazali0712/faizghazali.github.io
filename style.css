@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 html {
     background-color: white;
     font-family: sans-serif;
@@ -11,6 +15,8 @@ ul#navigasi {
     background-color: black;
     display: flex;
     justify-content: center;
+    height: 145px;
+    width: 100%;
 }
 ul#navigasi li.hori {
     float: left;
@@ -24,6 +30,8 @@ ul#navigasi li a{
     text-decoration: none;
     background-color: #000083;
     border-radius: 5px;
+    height: 100%;
+    justify-self: center;
 
 }
 .Logo {
