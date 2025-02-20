@@ -1,0 +1,1 @@
+console.log('Halo Kawan, dari file js dunia laen')

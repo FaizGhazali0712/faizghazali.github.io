@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .head{
+                max-width: 100%;
+                max-height: 2500px;
+              
+            }
+            #navigasi {
+            list-style-type: none;
+            padding: 10px;
+            margin: 0;
+            overflow: hidden;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            background-image: url(image/Hero\ 1.png);
+            height: 906px;
+            position: relative;
+            }
+            ul#navigasi li.hori {
+                float: left;
+            }
+            
+            ul#navigasi .left {
+                position: absolute;
+                width: 100px;
+                height: 200px;
+                top: 400px;
+                right: 450px;
+
+               
+            }
+            ul#navigasi li a {
+            display: flex;
+            color: white;
+            text-align: center;
+            padding:  14px 16px;
+            text-decoration: none;
+            }
+            a:hover {
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+            }
+            .right {
+                position: absolute;
+                width: 200px;
+                padding: 10px;
+                top: 7px;
+                right: 10px;
+                color: white;
+            }
+           
+            button.right {
+                position: absolute;
+                width: 200px;
+                border: 2px;
+                border-radius: 20px;
+                padding: 10px;
+                color: white;
+                background: rgb(18,120,241);
+                background: linear-gradient(90deg, rgba(18,120,241,1) 19%, rgba(255,255,255,1) 100%);
+            }
+            div.mini {
+            padding-top: 10px;
+            font-size: 10px;
+            font-family: sans-serif;
+            font-weight: 100;
+            }
+            div div span.strong {
+            position: absolute;
+            font-weight: 700;
+            font-size: 32px;
+            top: 500px;
+            left: 150px;
+            width: 500px;
+            }
+            .problem {
+                width: 100%;
+                height: auto;
+                text-align: center;
+                font-size: 32px;
+            }
+            #red {
+               color: red;
+            }
+            .list-problem {
+                display: flex;
+                flex-direction: row;
+            }
+            #problem1-2-3 {
+                flex-basis: 100%;
+                height: 150px;
+                margin: 10px;
+                background: rgb(18,120,241);
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                border-radius: 20px;
+                padding: 100px;
+                margin-bottom: 5px;
+
+            }
+            img#problem1-2-3 {
+                justify-content: center;
+            }
+            .list-problem2 {
+                display: flex;
+                flex-direction: row;
+            }
+            #problem1-2-34 {
+                flex-basis: 100%;
+                height: 150px;
+                margin: 10px;
+                background: rgb(18,120,241);
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                border-radius: 20px;
+                padding: 70px;
+
+            }
+            .center1 {
+                position: relative;
+            }
+            .center {
+                position: absolute;
+                left: 450px;
+                top: 10px;
+                width: 100%;
+                color: rgb(18,120,241);
+                text-align: center;
+                font-size: 40px;
+                font-weight: 600;
+                border-radius: 40px;
+                padding: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+                width: 40%;
+                justify-content: center;
+                margin-top: 150px;
+            }
+            .welcome {
+                position: relative;
+                margin-left: 50px;
+                width: 100%;
+                height: auto;
+            }
+            .big-left {
+                position: absolute;
+                font-size: 35px;
+                float: left;
+                top: 250px;
+                margin: 30px;     
+                width: 500px;           
+            }
+            .hello-right {
+                position: absolute;
+                top: 270px;
+                right: 50px;
+                float: right;
+                
+            }
+            .mini-left {
+                position: absolute;
+                top: 450px;
+                float: left;
+                margin: 30px;
+                width: 400px;
+            }
+            .mini-left2 {
+                position: absolute;
+                top: 510px;
+                float: left;
+                margin: 30px;
+                width: 420px;
+            }
+            .mini-left3 {
+                position: absolute;
+                top: 650px;
+                float: left;
+                margin: 30px;
+                width: 420px;
+            }
+            .whichproblems {
+                display: flex;
+                flex-direction: row;
+            }
+            #problem1{
+                flex-basis: 100%;
+                height: 150px;
+                margin: 4px;
+                background:  ;
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                justify-content: center;
+                border-radius: 20px;
+                padding: 70px;
+
+            }
+            
+
+
+        </style>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="head">
+        <ul id="navigasi">
+            <div class="left">
+                <img src="image/mockup.png">
+            </div>
+            <div class="right">
+                <button class="right" >Coba Versi Demo</button>
+            </div>
+            <li class="hori"><a href="#">Home</a></li>
+            <li class="hori"><a href="#">Portofolio</a></li>
+            <li class="hori"><a href="#">About Me</a></li>
+            <div class="big">
+                <span class="strong">
+                    Pondok Pesantren Sipond Mencakup Aplikasi Keuangan Santri, Aplikasi Data Santri, Aplikasi
+                     Tata Usaha/Administrasi, Aplikasi Absensi, dll. Terintegrasi menjadi satu aplikasi!</span>
+            </div>
+        </ul>
+        </div>
+        <div class="problem">
+            <h3>Mudahkan Manajemen Semua Kebutuhan Manajemen Pondok dengan bantuan Aplikasi <strong id="red">Adzsys</strong> :</h3>
+            <div class="list-problem">
+                <div id="problem1-2-3">
+                    <img src="image/mart.png">
+                    <strong>Unit Usaha</strong>
+                </div>
+                <div id="problem1-2-3">
+                    <img src="image/coins (1).png">
+                    <strong>Keuangan</strong>
+                </div>
+                <div id="problem1-2-3">
+                    <img src="image/stethoscope (1).png">
+                    <strong>Kesehatan</strong>
+                </div>
+                <div id="problem1-2-3">
+                    <img src="image/quran.png">
+                    <strong>Tahfidz</strong>
+                </div>
+
+            </div>
+            <div class="list-problem2">
+                <div id="problem1-2-34">
+                    <img src="image/teamwork.png">
+                    <strong>Kesantrian</strong>
+                </div>
+                <div id="problem1-2-34">
+                    <img src="image/balance.png">
+                    <strong>Pelanggaran</strong>
+                </div>
+                <div id="problem1-2-34">
+                    <img src="image/file.png">
+                    <strong>Perizinan</strong>
+                </div>
+                <div id="problem1-2-34">
+                    <img src="image/paper.png">
+                    <strong>Raport & PSB</strong>
+
+                </div>
+                <div id="problem1-2-34">
+                    <img src="image/folder.png">
+                    <strong>Tata Usaha</strong>
+                </div>
+            </div>
+        </div>
+        <div class="welcome">
+            <div class="center1"> 
+                <div class="center"> < Tentang Kami > </div>
+            </div>
+            <div class="hello-left">
+                <strong class="big-left">
+                    Selamat datang di layanan aplikasi 
+                    manajemen pondok, <strong id="red">AdzSys!</strong>
+                </strong>
+            </div>
+            <div class="hello-right">
+                <img src="image/IMG_1362 1.png"class="image-right">
+            </div>
+                <p class="mini-left">
+                    Kami menawarkan solusi inovatif untuk mempermudah pengelolaan data pondok pesantren. 
+                </p>
+                <p class="mini-left2">
+                    Kami memperkenalkan aplikasi AdzSys, yang terdiri dari dua bagian. 
+                    Pertama, aplikasi web-based yang dapat diakses melalui browser untuk admin pondok pesantren, 
+                    meliputi tata usaha, kesantrian, tahfidz, dan keuangan. Kedua, aplikasi Android untuk walisantri yang tersedia di Playstore.
+                </p>
+                <p class="mini-left3">
+                    AdzSys juga ideal digunakan di Sekolah Islam sebagai 
+                    aplikasi spp sekolah, aplikasi keuangan sekolah
+                     atau juga aplikasi administrasi sekolah karna secara umum pengelolaan 
+                    administrasi dan keuangan sekolah lebih simple daripada pondok pesantren.
+                </p>
+        </div>
+        <div class="whichproblems">
+            <div id="problem1">
+                <img src="image/Rectangle 95 (1).png">
+                
+            </div>
+            <div id="problem1">
+                <img src="image/coins (1).png">
+                
+            </div>
+            <div id="problem1">
+                <img src="image/stethoscope (1).png">
+                
+            </div>
+            <div id="problem1">
+                <img src="image/quran.png">
+                
+            </div>
+
+        </div>
+        <footer class=""></footer>
+        
+    
+    </body>
+
+</html>

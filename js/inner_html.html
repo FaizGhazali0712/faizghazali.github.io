@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Inner HTML
+    </title>
+    <body>
+        <h1 id="judul">Pondok Tahfizh Abu Dzar</h1>
+        <button onclick="ubahjudul()">klik untuk mengubah judul</button>
+        <button onclick="tampilkangambar()"> klik ini </button>
+        <div id="gambar"></div>
+        <script>
+            function ubahjudul() {
+                document.getElementById("judul").innerHTML = "SDI AbuDzar"
+            }
+            function tampilkangambar() {
+                document.getElementById("gambar").innerHTML = 
+                `<img src="image/mockup.png" width="200" height="100">`
+                
+            }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- <html>
+    <head>
+        <script>
+            function asking () {
+                confirm("Are you sure you want to change the background?");
+                if (confirm) {
+                    document.body.style.backgroundColor = "black";
+                }
+                else {
+                    document.body.style.backgroundColor = "white";
+                }
+            }
+
+                
+        </script>
+    </head>
+    <body>
+        <button id="black_button" onclick="asking()">change the background</button>
+    </body>
+</html> -->
+<html>
+    <head>
+        <script>
+            function changeBackground() {
+               var gantiWarna = prompt("Masukan warna tema website anda (misalya: red, green, blue, yellow, dll)");
+               if (gantiWarna === red) {
+                     document.body.style.backgroundColor = "red";
+                } else if (gantiWarna === green) {
+                     document.body.style.backgroundColor = "green";
+                } else if (gantiWarna === blue) {
+                     document.body.style.backgroundColor = "blue";
+                } else if (gantiWarna === "black") {
+                        document.body.style.backgroundColor = "black";
+                } 
+            }
+        </script>
+    </head>
+    <body style="background-color: black;">
+        <button id="white" onclick="changeBackground()">change background color</button>
+    </body>
+</html>

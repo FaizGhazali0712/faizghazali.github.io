@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            alert("Selamat datang di halaman daftar siswa!");
+            function TambahkanSiswa() {
+                var NamaSiswa = prompt("Masukkan nama siswa:");
+                if (NamaSiswa) {
+                    document.getElementById("ubahNama").innerHTML = NamaSiswa;
+
+                }  else {
+                    alert("Nama siswa tidak boleh kosong!");
+                }
+                var UsiaSiswa = prompt("Masukkan usia siswa:");
+                if (UsiaSiswa) {
+                    document.getElementById("ubahUsia").innerHTML = UsiaSiswa;
+                    
+                } else {
+                    alert("Usia siswa tidak boleh kosong!");
+                }      
+            }
+            function HapusSiswa() {
+                var Hapus = confirm("Apakah Anda yakin ingin menghapus siswa ini?");
+                if (Hapus) {
+                    document.getElementById("ubahNama").innerHTML = "";
+                    document.getElementById("ubahUsia").innerHTML = "";
+                } else {
+                    alert("Alhamdulillah Tidak dihapus!");
+                }
+            }
+        </script>
+        <style>
+            table, tr, td {
+                border: 1px solid ;
+            }
+        </style>
+
+    </head>
+    <body>
+        <h1> Daftar Siswa</h1>
+        <table style="width: 100%;border: 1px solid black;">
+            <tr>
+                <td>Nama</td>
+                <td id="ubahNama"></td>
+                <td>Usia</td>
+                <td id="ubahUsia"></td>
+                
+            </tr>
+        </table>
+        <button style="margin-bottom: 10px;margin-top: 10px;" onclick="TambahkanSiswa()">Tambah Siswa</button>
+        <button onclick="HapusSiswa()">Hapus Siswa</button>
+    </body>
+</html>

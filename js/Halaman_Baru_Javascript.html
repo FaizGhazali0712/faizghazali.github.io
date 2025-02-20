@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> ALERT</title>
+        <script>
+            function greet() {
+                alert("Halo anak-anak HITAM!")
+            }
+        </script>
+
+    </head>
+    <body>
+        <script>
+            let username = 'Faiz Ghazali';
+            console.log('Sebelum diubah:', username);
+            username = 'pondokabudzar';
+            console.log('Setelah diubah:', username);
+        </script>
+        <h1 id="judul">Judul Lama</h1>
+        <button onclick="ubahjudul()">klik untuk membesar judul</button>
+        <button onclick="greet()">Klik saya</button>
+        <button onclick="alert('halo')">klik aku</button>
+        <script>
+            document.write("hey kawan ini adalah hasil dari javascript")
+            function ubahjudul() {
+                 document.getElementById("judul").innerHTML = "Judul Besar!"
+            }
+            document.getElementById("Header").innerHTML = "Nerd"
+        </script>
+        <!-- 
+        <button onclick="BeriNotifikasi()">klik saya</button>
+        <script>
+            function BeriNotifikasi () {
+                alert("Selamat Datang di halaman Javascript");
+            }
+        </script> 
+       
+    </body>
+    <!-- <script src="New_Super_Script.js">
+
+    </script> -->
+
+</html>
