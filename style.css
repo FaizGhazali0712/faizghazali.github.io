@@ -15,12 +15,13 @@ ul#navigasi {
 ul#navigasi li.hori {
     float: left;
 }
+
 ul#navigasi li a{
     display: block;
-    color: 	#000083;
+    color: 	white;
     text-align: center;
     padding:  14px 16px;
     text-decoration: none;
-    
+    background-color: #000083;
 
 }
