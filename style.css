@@ -23,5 +23,10 @@ ul#navigasi li a{
     padding:  14px 16px;
     text-decoration: none;
     background-color: #000083;
+    border-radius: 5px;
 
+}
+.Logo {
+    width: 350px;
+    height: 150px;
 }
