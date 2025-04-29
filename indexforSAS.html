@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            console.log(10 + "5");  
+            console.log(5 == "5");  
+            let day = 2;
+            switch (day) {
+            case 1: console.log("Senin");
+            break;
+            case 2: console.log("Selasa");
+            break;
+            default: console.log("Hari lainnya");
+            };
+            let x = 10;
+            if (x > 5) { console.log("Besar");
+            } else {
+                console.log("Kecil");
+            };
+            let a = null ?? "default";
+            console.log(a);
+            console.log(0 ? "Yes" : "No");  
+            let x1 = 10;
+            let result = (x1 > 5) ? "Besar" : "Kecil"; 
+            console.log(result);
+            // DANGER = INFINITE LOOP COMMAND!
+            // let i = 3;
+            // while (i > 0) {
+            //     console.log(i);
+            // i--;
+            // }  
+            // for (;;) {
+            // console.log("Hello");
+            // }  
+            let arr = [1, 2, 3];
+            arr.push(4);
+            console.log(arr);  
+
+            console.log(typeof null);
+
+            console.log([] == false);
+
+            let x2;
+            console.log(x2 ?? "Default Value");
+
+            const sum = (a, b) => a + b;
+            console.log(sum(2, 3));  
+
+            let nilai = 89;
+            if (nilai = 90 < 100) {
+                console.log("A");
+            } else if (nilai = 80 < 89) {
+                console.log("B");
+            } else if (nilai = 70 < 79) {
+                console.log("C");
+            } else if (nilai = 60 < 69) {
+                console.log("D");
+            } else {
+                console.log("E")
+            }  
+
+            function InputAdmin() {
+                var InputAdmin = prompt("Masukkan username:");
+                if (InputAdmin) {
+                    document.getElementById("ubahNama").innerHTML = InputAdmin;
+
+                }  else {
+                    alert("Nama username tidak boleh kosong!");
+                }
+                var InputPassword = prompt("Masukkan Password:");
+                if (InputPassword) {
+                    document.getElementById("ubahPassword").innerHTML = InputPassword;
+                    
+                } else {
+                    alert("Password tidak boleh kosong!");
+                }      
+            }
+
+            function cekData(username, password) {
+                let validData = username + password;
+                console.log(Boolean);
+            }
+
+        </script>
+    </head>
+    <body>
+        <button style="margin-bottom: 10px;margin-top: 10px;" onclick="InputAdmin()">Login here</button>
+       <div id="ubahNama"></div>
+       <div id="ubahPassword"></div>
+    </body>
+</html>
